@@ -52,7 +52,7 @@ print "bisection examples:"
 for result in results:
     print result
 
-print "\n\n\n"
+print "\n\n"
 
 print "Newton's examples:"
 blahs = map(lambda x: newton(x[0], x[1],(x[2]+x[3])/2) , problems_2)
